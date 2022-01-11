@@ -1,5 +1,5 @@
-SELECT a.personId, a.LastName, a.firstName,
-b.addressId, b.city, b.state
+SELECT a.LastName, a.firstName, 
+b.city, b.state
 from Person as a
 left join Address as b
 on a.personId=b.personId;
