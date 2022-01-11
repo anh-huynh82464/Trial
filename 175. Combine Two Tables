@@ -1,4 +1,0 @@
-SELECT City, State, lastName, FirstName
-FROM person
-LEFT JOIN address
-ON Person.personId=Address.personId;
