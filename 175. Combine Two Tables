@@ -1,5 +1,0 @@
-SELECT a.LastName, a.firstName, 
-b.city, b.state
-from Person as a
-left join Address as b
-on a.personId=b.personId;
